@@ -25,10 +25,15 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. How would you describe preprocessing to someone new to CSS?
+    Preprocessing is the usage of unique language to translate/generate another code language. In this unit we used CSS preprocessors (LESS, SASS) with syntax that allows for easier programming and then compiles the code to CSS code.
 2. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+    CSS Preprocessing is useful for organizing commands such as the use of mixins and variables to minimize the amount of repetitive and less important code; however the difficulty lies in the over-use of nesting and the keeping track of code within a nested element.
 3. How would you explain the concept of a variable to someone new to programming?
+    A variable in JS is used as storage of information, later to be used for operations; some variables, such as "const" are permananent/fixed information that cannot be changed, while "var" and "let" can be changed for updates or revisions.
 4. What is the purpose of using functions in code?
+    Function in JS code perform an operation that can be used over and over again, which can save coders and other users time; on a larger scale it becomes a tool that can be used for larger data, for data extraction and calculations (to name a few).
 5. What is a JSON data?
+    JSON or javascript object notation is the format of Javascript we've been writing in (widely used and consider easy to understand/write), it include the use of strings, numbers, objects, arrays, booleans, and null.
 
 You may need to look up an answer but, you are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
