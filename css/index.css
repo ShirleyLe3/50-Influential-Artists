@@ -1,11 +1,97 @@
-.container {
-  padding: 10% 10%;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
-h1 {
-  font-size: 2rem;
+.container {
+  padding: 8% 10%;
 }
 h2 {
   font-size: 3rem;
+  padding: 5% 0%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,40 +107,87 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 2%;
 }
 nav a {
   width: 19rem;
-  font-size: 4rem;
-  font-weight: bold;
+  font-size: 3.2rem;
+  font-weight: 200px;
   color: grey;
   text-decoration: none;
   font-family: calibri;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.home-background {
-  margin: 0 auto;
+nav a:hover {
+  color: #272626;
+  font-weight: bold;
 }
-#button {
+.title-container {
+  font-size: 6rem;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.title-container .image {
+  width: 100%;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  opacity: 85%;
+  padding: 3% 0%;
+  border-bottom: solid silver 1px;
+}
+.heading {
+  padding: 20% 30%;
+  align-items: center;
+}
+.heading .headline {
+  text-align: center;
+  font-size: 8rem;
+  font-family: Calibri;
+  font-weight: bold;
+  color: white;
+}
+.heading #button {
   background-color: white;
-  border: solid black 1px;
+  border: solid grey 2px;
   border-radius: 6px;
-  font-size: 3rem;
-  padding: 2% 5%;
+  box-shadow: 4px 5px #575757;
+  font-size: 1.5rem;
+  padding: 3% 10%;
+  align-items: center;
+}
+.heading #button a {
+  text-decoration: none;
+  color: #5b5b5c;
+}
+.heading #button a:hover {
+  opacity: 50%;
+}
+.heading #button #button:hover {
+  background-color: grey;
 }
 .artists-container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  padding-top: 3%;
 }
 .artist {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 45%;
+  height: 40%;
 }
 .artist p {
   font-size: 2rem;
 }
 .artist img {
-  height: 500px;
-  width: 700px;
+  height: 450px;
+  width: 650px;
   border-radius: 25px;
+  margin: auto;
 }
