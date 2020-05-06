@@ -274,32 +274,29 @@ console.log(removeArtist(artists, 0));
 
 /* Task 5: Create a function called lotsOfArt() that takes artists as an argument and returns an array with names of artists who painted more than 100 paintings */
 
-function lotsOfArt(artists) {
+function lotsOfArt(artistsArr) {
+
   let variousPaintings = [];
-  for (let i = 0; i < artists.length; i++) {
-    if (artists[i].paintings > 100) {
-      variousPaintings.push(artists, [i]);
+  for (let i = 0; i < artistsArr.length; i++) {
+    if (artistsArr[i].paintings > 100) {
+      variousPaintings.push(artistsArr[i]);
     }}
   return variousPaintings;
-}
-
-console.log(lotsOfArt(artists, [0]));
-
-
-
-function lotsOfArt(artistsArr) {
-let variousPaintings = [];
-for (let i = 0; i < artistsArr.length; i++) {
-  if (artistsArr[i].paintings > 100) {
-    variousPaintings.push(artistsArr[i]);
-  }}
-return variousPaintings;
-}
+  }
 
 console.log(lotsOfArt(artists, [0]));
 
  
-  
+// function lotsOfArt(artists) {
+//   let variousPaintings = [];
+//   for (let i = 0; i < artists.length; i++) {
+//     if (artists[i].paintings > 100) {
+//       variousPaintings.push(artists, [i]);
+//     }}
+//   return variousPaintings;
+// }
+
+// console.log(lotsOfArt(artists, [0]));
   //  let newArr = [];
   //   for (var i = 0; i < arr.length; i++) {
   //   if (arr[i]) === 5) {arr.splice(i, 1);}
@@ -321,52 +318,31 @@ console.log(lotsOfArt(artists, [0]));
 /* Task 6: Create a function called `addArtist` that can accept an array of information and add it to the artists array. Then, Add a 21st artist to the array (you) with custom information! 👩‍🎨👨‍🎨*/
 
 
-function addArtist(id, name, year, genre, nationality, bio) {
-  const list = {
-     id: id,
-     name: "name",
-     years: "year",
-     genre: "genre",
-     nationality: "Nationality",
-    bio: "bio",
-  };  
-    return addArtists;
-}  
-
-
- console.log(addArtist(   
-    id: 21,
-    name: "Shirley",
-    years: "1995 - 2020",
-    genre: "Web Design",
-    nationality: "USA",
-    bio:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum,"));
- 
+function addArtist(id, name, years, genre, nationality, bio) {
+  const newArtist = {
+    id: id,
+    name: name,
+    years: years,
+    genre: genre,
+    nationality: nationality,
+    bio: bio
+  };
+  return newArtist;
+}
+console.log(addArtist(
+  21,
+  "Shirley",
+  "1995 - 2020",
+  "Web Design",
+  "USA",
+  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"));
 
 
 
 
 
 
-
-
-
-    // function addArtist(id, name, genre, nationality, bio) {
-    //   const list = {
-    //     id: 21,
-    //     name: "Shirley",
-    //     years: "1995 - 2020",
-    //     genre: "Web Design",
-    //     nationality: "USA",
-    //     bio:
-    //       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum,"
-    //   };
-    //   return addArtist;
-    // }
-    // // console.log(addArtist);
-
-
+  
 
 
 
