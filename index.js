@@ -279,9 +279,21 @@ function lotsOfArt(artists) {
   for (let i = 0; i < artists.length; i++) {
     if (artists[i].paintings > 100) {
       variousPaintings.push(artists, [i]);
-    }
-  }
+    }}
   return variousPaintings;
+}
+
+console.log(lotsOfArt(artists, [0]));
+
+
+
+function lotsOfArt(artistsArr) {
+let variousPaintings = [];
+for (let i = 0; i < artistsArr.length; i++) {
+  if (artistsArr[i].paintings > 100) {
+    variousPaintings.push(artistsArr[i]);
+  }}
+return variousPaintings;
 }
 
 console.log(lotsOfArt(artists, [0]));
